@@ -145,3 +145,9 @@ body{
 .winning-msg.show{
     display: flex;
 }
+
+@media(max-width: 480px) {
+    .winning-msg {
+        font-size: 50px;
+    }
+  }
